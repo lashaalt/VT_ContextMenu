@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Verify Hash on VirusTotal]
+@="Verify Hash on VirusTotal"
+"Icon"="imageres.dll,-104"
+
+[HKEY_CLASSES_ROOT\*\shell\Verify Hash on VirusTotal\command]
+@="cmd /c for /f %%H in ('certutil -hashfile \"%1\" SHA256 ^| findstr /R /V \"hash\"') do \"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" https://www.virustotal.com/gui/file/%%H"
