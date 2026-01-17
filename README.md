@@ -1,4 +1,4 @@
-# Verify file on virus total using right click
+# Verify file on Virus Total using right click
 
 Quickly verify any file on Virus Total by just Right clicking, and selecting "Verify Hash on VirusTotal"
 
