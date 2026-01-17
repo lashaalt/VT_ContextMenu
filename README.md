@@ -19,10 +19,10 @@ Context menu looks like this.
 ![Context Menu Image](./img/context-menu.png)
 
 
-BTW, if you want to change the icon of the command, replace the icon index number in `"Icon"="imageres.dll,-104"`.
+BTW, if you want to change the icon of the command, replace the icon index number 104 in `"Icon"="imageres.dll,-104"`.
 
 The number should match the "Icon Group" Index number in `C:\Windows\SystemResources\imageres.dll.mun`. 
-There are a few free PE resource browsers out there. 
+There are a few free PE resource browsers out there. [More info here...](https://learn.microsoft.com/en-us/answers/questions/4370869/where-do-i-find-the-icon-image-of-a-specific-deskt)
 
 Enjoy, 
 L
